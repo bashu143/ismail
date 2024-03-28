@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.navitem a{
+text-decoration: none;
+font-size: 1.2rem;
+font-weight: 600;
+color: hsl(233,8%,62%);
+margin-left: 10px;
+}
+.navbar button{
+    padding: 12px 28px;
+    border:none;
+    outline-width: 0;
+    color: white;
+    background-image: linear-gradient(120deg, hsl(136,65%,51%),hsl(192,70%,51%));
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.navbar img{
+   
+    border-radius: 20px;
+}
+.herosection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+.heroimage img{
+    width:500px;
+    border-radius: 10px;
+}
+.herotext{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.herotext h1{
+font-size:60px;
+font-weight: 800;
+margin-bottom:20px;
+color:hsl(233,26%,24%);
+line-height: 1.1;
+}
+.herotext p{
+color: hsl(233,8%,62%);
+font-weight: 700;
+margin-bottom: 15px;
+}
+.herotext button{
+    padding: 12px 28px;
+    border:none;
+    outline-width: 0;
+    color: white;
+    background-image: linear-gradient(120deg, hsl(136,65%,51%),hsl(192,70%,51%));
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.container{
+    background-color: hsl(220,16%,96%);
+    margin-top: -50px;
+    
+
+    
+}
+.whyus{
+    padding-top: 10vh;
+    width:80%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 10vh;
+
+}
+.whyus h1{
+    font-size:30px;
+    font-weight: 800;
+    margin-bottom:20px;
+    color:hsl(233,26%,24%);
+}
+.whyus p{
+    color: hsl(233,8%,62%);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.featuresection{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 10vh;
+   
+}
+.futureitem{
+    margin-left: 1.2rem;
+}
+.futureitem img{
+    width: 65px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+
+}
+.futureitem h1{
+    font-size:25px;
+    font-weight: 800;
+    margin-bottom:20px;
+    color:hsl(233,26%,24%);
+}
+.futureitem p{
+    color: hsl(233,8%,62%);
+    font-weight: 700;
+    
+}
+.blogsection{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10vh;
+}
+.articlescontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.article img{
+    width:200px;
+    height:200px;
+    background-color: #fff;
+}
+.article{
+    margin-top: 1.25rem;
+    margin-left:10px ;
+    height:350px;
+    
+}
+.blogsection h1{
+    font-size:30px;
+    font-weight: 800;
+    margin-bottom:20px;
+    color:hsl(233,26%,24%);
+    margin-left: 1.25rem;
+    
+}
+.contant p{
+    color: hsl(233,8%,62%);
+    font-weight: 400;
+    font-size: 14px;
+    padding:10px;
+}
+.contant h4{
+    padding-left: 15px;
+    
+}
+.footer{
+    background-color:hsl(233,26%,24%); 
+    height: 30vh;
+    margin-top: -20px;
+}
+.footercontainer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 2rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.social{
+    margin-top: 3rem;
+
+}.footercontainer button{
+    margin-top: 3rem;
+    padding: 12px 28px;
+    border:none;
+    outline-width: 0;
+    color: white;
+    background-image: linear-gradient(120deg, hsl(136,65%,51%),hsl(192,70%,51%));
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.social i{
+    margin-left: 10px;
+    cursor: pointer;
+}
